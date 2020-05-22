@@ -1,0 +1,12 @@
+[package]
+name = "RustyRaspyOs"
+version = "0.1.0"
+authors = ["Sarhad Salam <me@sarhad.me>"]
+edition = "2018"
+
+# The features section is used to select the target board.
+[features]
+default = []
+bsp_rpi3 = []
+
+[dependencies]
